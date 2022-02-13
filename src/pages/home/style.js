@@ -30,9 +30,14 @@ const styles = StyleSheet.create({
   categorie: {
     width: 100,
     height: 100,
-    backgroundColor: "#d3d2d2",
+    backgroundColor: "black",
     marginLeft: 10,
     marginRight: 5,
+    borderRadius: 10
+  },
+  categorieImg: {
+    width: 100, 
+    height: 100
   },
   promoGradient: {
     borderTopLeftRadius: 20,
@@ -46,47 +51,6 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: "space-evenly",
   },
-  cardProduct: {
-    width: "40%",
-    height: 300,
-    borderColor: "#a5a5a5",
-    marginTop: 20,
-    shadowColor: '#000',
-    shadowOpacity: 0.8,
-    elevation: 6,
-    backgroundColor: "white"
-
-  },
-  cardImgBox: {
-    borderBottomWidth: 1,
-    height: "60%"
-  },
-  cardImg: {
-    flex: 1,
-    width: null,
-    height: null,
-    resizeMode: "contain"
-  },
-  cardContent: {
-    padding: 5,
-    width: "100%",
-  },
-  cardName: {
-    fontSize: 15,
-    fontWeight: "bold"
-  },
-  cardPrice: {
-    fontWeight: "200",
-    fontSize: 20,
-    fontStyle: "italic"
-  },
-  Rating: {
-    flexDirection: "row",
-    marginTop: 10,
-  },
-  star: {
-    marginRight: 5,
-  }
 })
 
 export default styles
